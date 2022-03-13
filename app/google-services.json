@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "550290806252",
+    "project_id": "app-wearth",
+    "storage_bucket": "app-wearth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550290806252:android:fb33a08d757f390dfa5cc9",
+        "android_client_info": {
+          "package_name": "com.example.app_wearth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550290806252-q8f7gu4f112kbaiv2pn24otijch5ltqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXXxOgz-W_GRBHpzGg5oRL2rxgreD9V1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550290806252-q8f7gu4f112kbaiv2pn24otijch5ltqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
