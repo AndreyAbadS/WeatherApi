@@ -13,5 +13,6 @@ class cityWeather_Fragment : Fragment(R.layout.fragment_city_weather_) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentCityWeatherBinding.bind(view)
+
     }
 }

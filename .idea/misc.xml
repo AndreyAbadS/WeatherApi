@@ -3,13 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Andre/AndroidStudioProjects/App_wearth/app/src/main/res/layout/activity_body.xml" value="0.10925925925925926" />
+        <entry key="..\:/Users/Andre/AndroidStudioProjects/App_wearth/app/src/main/res/layout/activity_body.xml" value="0.176" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/App_wearth/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/App_wearth/app/src/main/res/layout/fragment_city_details_.xml" value="0.25" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/App_wearth/app/src/main/res/layout/fragment_city_weather_.xml" value="0.2359375" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/App_wearth/app/src/main/res/layout/fragment_login.xml" value="0.25" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/App_wearth/app/src/main/res/layout/fragment_register.xml" value="0.25" />
-        <entry key="..\:/Users/Andre/AndroidStudioProjects/App_wearth/app/src/main/res/layout/fragment_searchcity_.xml" value="0.25" />
+        <entry key="..\:/Users/Andre/AndroidStudioProjects/App_wearth/app/src/main/res/layout/fragment_searchcity_.xml" value="0.19519927536231885" />
       </map>
     </option>
   </component>
