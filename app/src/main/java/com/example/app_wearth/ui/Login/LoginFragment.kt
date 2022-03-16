@@ -34,9 +34,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
         }
     }
 
-    private fun sigIn(email: String, password: String) {
 
-    }
 
     private fun updateUI(currentUser: FirebaseUser?) {
         if (currentUser != null) {

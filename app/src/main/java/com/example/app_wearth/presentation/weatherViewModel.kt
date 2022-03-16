@@ -8,17 +8,22 @@ import com.example.app_wearth.repository.weatherRepository
 import kotlinx.coroutines.Dispatchers
 import java.lang.Exception
 
-class weatherViewModel(private val repo:weatherRepository, private val city:String): ViewModel() {
-    fun fetchWeatherU()= liveData(Dispatchers.IO){
+class weatherViewModel(private val repo: weatherRepository, private val city: String) :
+    ViewModel() {
+    fun fetchWeatherU() = liveData(Dispatchers.IO) {
         emit(Resource.Loading())
         try {
-           emit(Resource.Success(repo.getCity(city)))
-        }catch(e:Exception){
+            emit(Resource.Success(repo.getCity(city)))
+        } catch (e: Exception) {
             emit(Resource.Failed(e))
         }
     }
 }
 
-class weatherViewModelFactory(private val repo:weatherRepository):ViewModelProvider.Factory{
-
+class weatherViewModelFactory(private val repo: weatherRepository) :
+    ViewModelProvider.NewInstanceFactory() {
+    override fun <T : ViewModel> create(modelClass: Class<T>): T
+    {
+        return modelClass.getConstructor(weatherRepository::class.java).newInstance(repo)
+    }
 }
